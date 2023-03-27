@@ -55,7 +55,6 @@ echo
 echo "----------"
 echo "last line:"
 tail -n 1 $file_path
-done
 ```
 
 ## 마크다운 :"
@@ -70,9 +69,9 @@ done
 - 세번째
 + 두번째
 -----
-* 빨강
-  * 녹색
-    * 파랑
++ 빨강
+  + 녹색
+    + 파랑
 
 ### 강조
 *single asterisks*    
