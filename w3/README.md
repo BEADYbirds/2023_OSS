@@ -5,7 +5,7 @@
 ### 3주차 git
 
 ### 이미지
-![한국항공대학교 로고](../img/kau/kau.png "한국항공대학교")
+![한국항공대학교 로고](../kau.png "한국항공대학교")
 
 
 ### 링크   
@@ -32,9 +32,9 @@
 
 ```bash
 #!/usr/bin/env bash
-echo "name :
+echo "name : 이석준
 
-echo "student id :
+echo "student id : 20018125042
 
 
 find ~/ -name w2_homework.txt -print 2>/dev/null | while read file
