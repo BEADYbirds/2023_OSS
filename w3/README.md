@@ -32,23 +32,33 @@
 
 ```bash
 #!/usr/bin/env bash
-echo "name : 이석준
+echo "----------"
+echo "name : 이석준"
+echo
+echo "----------"
+echo "student id :"
+echo "20018125042"
+   
 
-echo "student id : 20018125042
+file_path='find /home/kau2/ -name w2_homework.txt -print 2>/dev/null'
+echo "----------"
+echo
+echo "file path:"
+echo $file_path
+echo
 
-
-find ~/ -name w2_homework.txt -print 2>/dev/null | while read file
-do
-    echo "file path :
-$file"
-    echo "line number :
-$(wc -l < $file)"
-    echo "last line :
-$(tail -n 1 $file)"
+line_num='wc -l $file_path | cut -c 1-'
+echo "----------"
+echo "line number :"
+echo $line_num
+echo
+echo "----------"
+echo "last line:"
+tail -n 1 $file_path
 done
 ```
 
-## 마크다운
+## 마크다운 :"
 ### 목록
 #### 번호 있는 목록 : 내림차순 정렬
 1. 첫번째
